@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">wishAlgada</string>
+
+    <string-array name="sections">
+        <item>اختر القسم</item>
+        <item>فطور</item>
+        <item>غداء</item>
+        <item>عشاء</item>
+        <item>مقبلات</item>
+        <item>حلويات</item>
+        <item>مشروبات</item>
+
+    </string-array>
 </resources>
