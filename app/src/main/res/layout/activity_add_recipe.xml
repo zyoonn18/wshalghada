@@ -9,10 +9,10 @@
     <ScrollView
         android:layout_width="1dp"
         android:layout_height="1050dp"
-        android:layout_marginTop="16dp"
+        androidtical_bias="0.26":layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
+        app:layout_constraintVer
         tools:layout_editor_absoluteX="8dp">
 
         <LinearLayout
@@ -86,7 +86,6 @@
         tools:layout_editor_absoluteY="369dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         app:srcCompat="?attr/homeAsUpIndicator"
