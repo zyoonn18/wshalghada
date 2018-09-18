@@ -6,21 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".AddRecipe">
 
-    <ScrollView
-        android:layout_width="1dp"
-        android:layout_height="1050dp"
-        androidtical_bias="0.26":layout_marginTop="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVer
-        tools:layout_editor_absoluteX="8dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="240dp"
@@ -38,73 +23,99 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/wish" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="177dp"
-        android:layout_height="39dp"
-        android:text="اضافه وصفه جديدة"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="189dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="اسم الوصفة"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="278dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="109dp"
-        android:layout_height="26dp"
-        android:text="حقول مطلوبة *"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="228dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="المكونات:"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="335dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="المكون١"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="369dp" />
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        app:srcCompat="?attr/homeAsUpIndicator"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="136dp" />
+        android:layout_marginBottom="332dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginStart="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="217dp"
-        android:layout_height="69dp"
-        android:entries="@array/sections"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="401dp" />
+    <ScrollView
+        android:layout_width="356dp"
+        android:layout_height="319dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="213dp"
-        android:layout_height="32dp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="482dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="189dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginBottom="10dp"
+                android:text="اضافه وصفه جديدة"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="178dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_marginBottom="20dp"
+                android:text="حقول مطلوبة *"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="246dp"
+                tools:layout_editor_absoluteY="228dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="اسم الوصفة"
+                tools:layout_editor_absoluteX="140dp"
+                tools:layout_editor_absoluteY="278dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="المكونات:"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="296dp"
+                tools:layout_editor_absoluteY="335dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المكون١"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="305dp"
+                tools:layout_editor_absoluteY="369dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:entries="@array/sections"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="401dp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="482dp" />
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
