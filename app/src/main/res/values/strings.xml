@@ -9,6 +9,19 @@
         <item>مقبلات</item>
         <item>حلويات</item>
         <item>مشروبات</item>
-
     </string-array>
+
+    <string-array name="ingredients">
+        <item>اختر المكون</item>
+        <item>طحين</item>
+        <item>جبن</item>
+        <item>بيض</item>
+    </string-array>
+
+    <string-array name="quantity">
+        <item>اختر المقياس</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
