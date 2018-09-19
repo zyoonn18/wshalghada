@@ -90,6 +90,7 @@
                     android:layout_height="150dp"
                     android:layout_marginLeft="200dp"
                     android:layout_weight="1"
+                    android:background="@android:color/white"
                     android:scaleType="fitXY"
                     android:src="@drawable/recipe" />
             </LinearLayout>
